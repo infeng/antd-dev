@@ -1,0 +1,34 @@
+{
+  "name": "antd-dev",
+  "version": "1.0.0",
+  "description": "antd dev environment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "dora --port 8010 --plugins \"webpack,webpack-hmr,browser-history?index=/demo/index.html\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infeng/antd-dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/infeng/antd-dev/issues"
+  },
+  "homepage": "https://github.com/infeng/antd-dev#readme",
+  "devDependencies": {
+    "@types/react": "^0.14.44",
+    "@types/react-dom": "^0.14.18",
+    "atool-build": "^0.9.0",
+    "dora": "^0.4.3",
+    "dora-plugin-browser-history": "^0.2.0",
+    "dora-plugin-webpack": "^0.8.1",
+    "dora-plugin-webpack-hmr": "^0.2.1",
+    "html-loader": "^0.4.4",
+    "html-webpack-plugin": "^2.24.1",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  }
+}
